@@ -1,4 +1,4 @@
-package com.headfirst.strategy;
+package com.headfirst.strategy.qwack;
 
 public class Qwack implements QwackInterface{
 

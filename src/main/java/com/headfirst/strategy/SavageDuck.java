@@ -1,5 +1,8 @@
 package com.headfirst.strategy;
 
+import com.headfirst.strategy.fly.Flyable;
+import com.headfirst.strategy.qwack.Qwack;
+
 public class SavageDuck extends Duck{
 
     public SavageDuck() {

@@ -1,4 +1,4 @@
-package com.headfirst.strategy;
+package com.headfirst.strategy.fly;
 
 public class NonFlyable implements FlyInterface{
 

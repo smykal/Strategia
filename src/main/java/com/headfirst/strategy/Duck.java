@@ -5,6 +5,13 @@ public abstract class Duck {
     QwackInterface qwackInterface;
     public Duck() {
     }
+    public void setFlyInterface(FlyInterface qI) {
+        this.flyInterface = qI;
+    }
+
+    public void setQwackInterface(QwackInterface qI) {
+        this.qwackInterface = qI;
+    }
 
     public abstract void show();
 

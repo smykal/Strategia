@@ -1,5 +1,4 @@
-import com.headfirst.strategy.Duck;
-import com.headfirst.strategy.SavageDuck;
+import com.headfirst.strategy.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,5 +6,12 @@ public class Main {
         savageDuck.startFlying();
         savageDuck.startQwack();
         savageDuck.show();
+
+        System.out.println("\n\n\n");
+
+        Duck rocketDuck = new SampleDuck();
+        rocketDuck.startFlying();
+        rocketDuck.setFlyInterface(new RocketFlyable());
+        rocketDuck.startFlying();
     }
 }
